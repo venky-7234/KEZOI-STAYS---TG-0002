@@ -1,0 +1,2 @@
+import { Sparkles } from 'lucide-react';
+export default function PropertySummary({property}){return <section className="property-summary-section"><div className="container" style={{overflow:'hidden'}}><div className="summary-strip marquee-strip">{[...property.summaryItems,...property.summaryItems].map((x,i)=><div className="summary-item" key={`${x}-${i}`}><Sparkles className="summary-icon" size={22}/><span className="summary-label">{x}</span></div>)}</div></div></section>}

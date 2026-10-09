@@ -1,50 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#0f3d34">
-  <meta name="description" content="Kezoi Stays TG-0002 — a premium farmhouse stay, curated for elevated living.">
-  <title>Kezoi Stays · TG-0002</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230f3d34'/%3E%3Cpath d='M18 13v38M47 14 24 32l24 19' fill='none' stroke='%23b69148' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header" id="header">
-    <a class="brand" href="#overview" aria-label="Kezoi Stays home"><span class="brand-mark">K</span><span>KEZOI <small>STAYS</small></span></a>
-    <div class="header-actions"><button class="btn btn-gold js-book">Book Now</button><button class="menu-button" id="menuOpen" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button></div>
-  </header>
-
-  <aside class="menu" id="menu" aria-hidden="true"><div class="menu-watermark">K</div><button class="round-close" id="menuClose" aria-label="Close menu">×</button><div class="menu-inner"><p class="eyebrow">KEZOI STAYS · TG-0002</p><nav id="menuNav"></nav><button class="btn btn-gold js-book">Book Now</button><a class="social-link" href="#footer">Instagram ↗</a><p class="menu-signature">Curated for elevated living</p></div></aside>
-
-  <main id="main">
-    <section class="hero" id="overview" aria-label="TG-0002 farmhouse introduction"><div class="hero-slides desktop-slides" id="desktopHero"></div><div class="hero-slides mobile-slides" id="mobileHero"></div><div class="hero-shade"></div><div class="hero-content"><p class="eyebrow">KEZOI STAYS · PREMIUM FARMHOUSE</p><h1>CURATED FOR<br><em>ELEVATED LIVING</em></h1><div class="hero-actions"><button class="btn btn-gold js-book">Book This Stay</button><a class="btn btn-outline" href="#location">View Location</a></div></div><div class="hero-counter"><span id="heroCurrent">01</span><i></i><span id="heroTotal">06</span></div></section>
-    <section class="marquee" aria-label="Property highlights"><div class="marquee-track" id="summaryMarquee"></div></section>
-
-    <section class="section about reveal" id="about"><div><p class="eyebrow">KEZOI STAYS · TG-0002</p><h2>A PRIVATE ESCAPE<br>FROM THE EVERYDAY.</h2></div><div class="about-copy"><p class="lead">“Some stays give you a place to sleep. Others give you room to breathe.”</p><p>Welcome to Kezoi Stays TG-0002, a thoughtfully designed farmhouse created for slow mornings, open-air evenings, shared meals, and time spent together.</p><p>Whether it is a family gathering, a weekend with friends, a celebration, or a quiet break from the city, there is space here to unwind, reconnect, and feel at home.</p><small>Introductory copy is editable pending final property details.</small></div></section>
-
-    <section class="section gallery-preview reveal" id="gallery"><div class="section-head"><div><p class="eyebrow">TAKE A CLOSER LOOK</p><h2>EXPLORE THE FARMHOUSE</h2></div><p>From open gathering spaces and restful bedrooms to lawns, outdoor corners, and thoughtful details, explore the spaces that shape the TG-0002 farmhouse experience.</p></div><div class="gallery-grid" id="galleryPreview"></div><button class="btn btn-dark" id="galleryOpen">Explore Full Gallery</button></section>
-
-    <section class="amenities" id="amenities"><div class="section"><div class="section-head light reveal"><div><p class="eyebrow">EVERYDAY, ELEVATED</p><h2>AMENITIES</h2></div><p>Everything here is ready to be tailored once the farmhouse facilities are confirmed.</p></div><div class="amenity-nav"><button id="amenityPrev" aria-label="Previous amenity category">←</button><div class="amenity-tabs" id="amenityTabs"></div><button id="amenityNext" aria-label="Next amenity category">→</button></div><div class="amenity-panel reveal" id="amenityPanel"></div></div></section>
-
-    <section class="section experiences reveal" id="experience"><div class="section-head"><div><p class="eyebrow">ROOM TO RECONNECT</p><h2>THE FARMHOUSE EXPERIENCE</h2></div><p>A slower rhythm, shaped by open air, shared tables and unhurried time together. Cards remain hidden until each experience is confirmed.</p></div><div class="experience-grid" id="experienceGrid"></div></section>
-
-    <section class="location" id="location"><div class="section location-grid reveal"><div><p class="eyebrow">FIND YOUR WAY</p><h2>YOUR ESCAPE,<br>JUST BEYOND<br>THE EVERYDAY.</h2><div class="address-card"><span>PROPERTY ADDRESS</span><strong id="addressText">[ADD FARMHOUSE ADDRESS]</strong><div><button id="copyAddress">Copy address</button><a href="#" id="mapLink">Open Google Maps ↗</a></div></div></div><div><div class="map-placeholder"><span>MAP EMBED</span><strong>[ADD COORDINATES OR EMBED]</strong></div><div class="nearby" id="nearby"></div></div></div></section>
-
-    <section class="section settle reveal" id="policies"><p class="eyebrow">BEFORE YOU SETTLE IN</p><h2>A FEW THINGS TO KNOW</h2><div class="time-cards"><div><span>CHECK-IN</span><strong>[TIME TO BE PROVIDED]</strong></div><div><span>CHECK-OUT</span><strong>[TIME TO BE PROVIDED]</strong></div></div><ul id="policyList"></ul><p class="closing">Come as you are. Feel at home.</p></section>
-  </main>
-
-  <footer id="footer"><div class="footer-inner"><div><a class="brand footer-brand" href="#overview"><span class="brand-mark">K</span><span>KEZOI <small>STAYS</small></span></a><h2>MAKE SPACE FOR<br>WHAT MATTERS.</h2></div><div class="footer-contact"><p class="eyebrow">STAY IN TOUCH</p><a href="mailto:[ADD EMAIL]">[ADD SUPPORT EMAIL]</a><a href="tel:[ADD PHONE]">[ADD TELEPHONE]</a><a href="#">Instagram ↗</a><a href="#">WhatsApp ↗</a></div></div><div class="footer-bottom"><span>© 2026 KEZOI STAYS</span><span>TG-0002 · PREMIUM FARMHOUSE</span></div></footer>
-
-  <div class="float-actions"><a href="tel:[ADD PHONE]" aria-label="Call Kezoi Stays">☎</a><a href="#" aria-label="Message Kezoi Stays on WhatsApp">◌</a></div><button class="mobile-book btn btn-gold js-book">Book Now</button>
-
-  <div class="overlay gallery-overlay" id="galleryOverlay" role="dialog" aria-modal="true" aria-labelledby="galleryTitle" aria-hidden="true"><header><div><span>KEZOI STAYS</span><strong id="galleryTitle">TG-0002 · THE FULL GALLERY</strong></div><div><button class="btn btn-gold js-book">Book Now</button><button class="round-close" id="galleryClose" aria-label="Close gallery">×</button></div></header><div class="gallery-body" id="galleryBody"></div></div>
-  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true"><button class="round-close" id="lightboxClose" aria-label="Close image viewer">×</button><button class="lightbox-arrow prev" id="lightPrev" aria-label="Previous image">←</button><div class="lightbox-frame" id="lightboxFrame"></div><button class="lightbox-arrow next" id="lightNext" aria-label="Next image">→</button><div class="dots" id="lightDots"></div></div>
-  <div class="overlay booking" id="booking" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" aria-hidden="true"><div class="booking-shell"><div class="booking-top"><div><p class="eyebrow">KEZOI STAYS · TG-0002</p><h2 id="bookingTitle">BOOK YOUR STAY</h2></div><button class="round-close" id="bookingClose" aria-label="Close booking">×</button></div><div class="steps" id="bookingSteps"><span class="active">01 Stay</span><span>02 Details</span><span>03 Review</span></div><form id="bookingForm"><div class="booking-stage active" data-stage="0"><div class="form-grid"><label>Check-in<input type="date" required></label><label>Check-out<input type="date" required></label><label>Adults<div class="counter"><button type="button">−</button><output>2</output><button type="button">+</button></div></label><label>Children<div class="counter"><button type="button">−</button><output>0</output><button type="button">+</button></div></label></div><div class="price-box"><span>Pricing</span><strong>[ADD NIGHTLY PRICE]</strong><small>Final pricing, taxes and availability to be configured.</small></div></div><div class="booking-stage" data-stage="1"><div class="form-grid"><label>Full name<input type="text" placeholder="Your name" required></label><label>Phone number<input type="tel" placeholder="+91" required></label><label>Email<input type="email" placeholder="you@example.com" required></label><label>Government ID<input type="file" accept="image/*,.pdf"></label><label class="wide">Referral information (optional)<input type="text" placeholder="How did you hear about us?"></label></div></div><div class="booking-stage" data-stage="2"><div class="review-card"><p>Review your dates, guest count and details before requesting this stay.</p><p><strong>Property:</strong> Kezoi Stays · TG-0002</p><p><strong>Location:</strong> [ADD FARMHOUSE LOCATION]</p><label class="check"><input type="checkbox" required> I acknowledge that availability, pricing and house policies will be confirmed by Kezoi Stays.</label></div></div><div class="booking-stage success" data-stage="3"><span>✓</span><h3>REQUEST RECEIVED</h3><p>Thank you. The Kezoi Stays team will contact you once booking operations are connected.</p></div><div class="booking-footer"><button class="text-button" type="button" id="bookingBack">Back</button><button class="btn btn-gold" type="button" id="bookingNext">Continue</button></div></form></div></div>
-  <script src="site.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/TG-0001/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kezoi Stays TG-0002 — premium farmhouse microsite" />
+    <title>TG-0002 | Kezoi Stays</title>
+    <script type="module" crossorigin src="/TG-0001/assets/index-FFXyorGg.js"></script>
+    <link rel="stylesheet" crossorigin href="/TG-0001/assets/index-DZ843TIV.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
