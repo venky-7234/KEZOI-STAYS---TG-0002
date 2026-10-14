@@ -54,10 +54,9 @@ export default function FarmhouseExperience() {
         </header>
 
         <div className="experience-groups">
-          {groups.map((group, groupIndex) => (
+          {groups.map((group) => (
             <section className="experience-group" key={group.label}>
               <div className="experience-group-heading">
-                <span>{String(groupIndex + 1).padStart(2, '0')}</span>
                 <h3>{group.label}</h3>
               </div>
               <div className="experience-list">
