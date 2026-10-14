@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /TG-0002/
+
+# Serve existing assets and files normally.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Send all other TG-0002 routes to the React application.
+RewriteRule ^ index.html [L]
